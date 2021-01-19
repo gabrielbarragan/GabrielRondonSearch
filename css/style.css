@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+
+}
+.nav-bar{
+    font-family: arial,sans-serif;;
+    font-size: 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.6rem 2.1rem;
+    justify-content: flex-end;
+   
+    
+}
+
+
+.nav-bar .menu__item{
+    list-style: none;
+    display: inline-block;
+    padding: 0.3rem 0.7rem;
+    
+}
+.nav-bar .menu__item a{
+    text-decoration: none;
+    color: black;
+    
+}
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.content__logo{
+    height: 70%;    
+    align-self: center;
+}
+.content__logo .logo-img{
+    padding: 10rem ;
+}
+.content__search .search-bar{
+    width: 40vw;
+}
