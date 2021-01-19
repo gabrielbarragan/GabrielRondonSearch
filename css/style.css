@@ -40,6 +40,22 @@ header .nav-bar .nav-bar__menu{
     color: black;
     margin: 1rem 1rem;    
 }
+
+.nav-bar .nav-bar__menu .menu__icon{
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+.nav-bar__menu .menu__item img{
+    border-radius: 50%;
+}
+.nav-bar .nav-bar__menu .menu__icon:hover{
+    opacity: 70%;
+}
 .content{
     height: 50vh;
     display: flex;
