@@ -31,18 +31,19 @@ html {
     
 }
 .content{
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+    margin-top: 8rem;;
+    text-align: center;
+    
 }
-.content__logo{
-    height: 70%;    
-    align-self: center;
+.content .content__logo{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+   
 }
 .content__logo .logo-img{
-    padding: 10rem ;
+    width: 30rem;
+    
 }
 .content__search .search-bar{
     width: 40vw;
