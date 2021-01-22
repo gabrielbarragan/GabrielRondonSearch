@@ -112,3 +112,29 @@ header .nav-bar .nav-bar__menu{
     height: 1.8rem;
     cursor: pointer;
 }
+.content .content__btn{
+    width: 53rem;
+    margin: 0 auto;
+
+}
+.content .content__btn div{
+    display: inline-block;
+}
+.content .content__btn button{
+    height: 3.6rem;
+    background-color: #e9e6f7e3;
+    border: 0;
+    font-size: 1.4rem;
+    color: #5f6368;
+    border-radius: 0.5rem;
+    padding: 0 1.5rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    border: 1px solid #e9e6f7e3;
+    
+}
+.content .content__btn button:hover{
+    border: 1px solid #cdcbd5e7;
+    background-color: #e9e7f5db;
+    box-shadow: 1px 2px 4px #8f8f8f;
+    color:#1d1d1d;}
