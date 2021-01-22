@@ -40,6 +40,9 @@ header .nav-bar .nav-bar__menu{
     color: black;
     margin: 1rem 1rem;    
 }
+.nav-bar .nav-bar__menu .menu__item a:hover{
+    text-decoration: underline;   
+}
 
 .nav-bar .nav-bar__menu .menu__icon{
     background-image: url("https://static.thenounproject.com/png/756729-200.png");
@@ -50,15 +53,24 @@ header .nav-bar .nav-bar__menu{
     height: 2.5rem;
     cursor: pointer;
 }
-.nav-bar__menu .menu__item img{
+.nav-bar__menu .menu__profile img{
     border-radius: 50%;
+    opacity: 80%;
+    border: 1px solid #ffffffe3;
+    margin: 0 5px;
 }
 .nav-bar .nav-bar__menu .menu__icon:hover{
     opacity: 70%;
 }
+.nav-bar__menu .menu__profile img:hover{
+    opacity:99%;
+    border: 1px solid #777777e3;
+    box-shadow: 1px 2px 6px #a09f9f;
+}
 .content{
     margin-top: 8rem;;
     text-align: center;
+    
     
 }
 .content .content__logo{
