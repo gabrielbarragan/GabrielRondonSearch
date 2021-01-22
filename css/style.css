@@ -68,9 +68,47 @@ header .nav-bar .nav-bar__menu{
    
 }
 .content__logo .logo-img{
-    width: 30rem;
+    width: 26rem;
     
 }
-.content__search .search-bar{
-    width: 40vw;
+.content .content__search{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+.content__search  .main__input-container{
+    width: 52.5rem;
+    border-radius: 100px;
+    border: solid 1px #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content__search  .main__input-container .search-bar{
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
+.content__search  .main__input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color:#c7c7c7;
+}
+.content__search .main__input-container .search-icon{
+    background-image: url("https://www.audicoop.coop/img/lupa.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 0.5rem;
+}
+.content__search .main__input-container .micro-icon{
+    background-image: url("https://image.flaticon.com/icons/png/128/23/23253.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
 }
